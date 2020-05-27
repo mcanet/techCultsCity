@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Base Transversal</title>
+
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Embed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/embed-js/5.0.4/embed.min.js"></script>
+
+    <!-- Tensorflow -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+
+    <!-- Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+    <!-- Face Tensorflow -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/facemesh"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/tf-backend-wasm.js"></script>
+
+    <!-- Bot script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rivescript/2.1.0/rivescript.min.js"></script>
+
+    <!-- Face tensorflow library with tfjs-core dependency -->
+    <!--<script src="js/libs/face-api.min.js"></script>-->
+
+    <!-- 3D library -->
+    <script type="module" src="js/libs/three.module.js"></script>
+
+    <!-- Code -->
+    <script type="module" src="js/textToSpeech.js"></script>
+    <script type="module" src="js/speechToText.js"></script>
+    <script type="module" src="js/TMPoseModel.js"></script>
+    <script type="module" src="js/TMAudioModel.js"></script>
+    <script type="module" src="js/TMImageModel.js"></script>
+    <script type="module" src="js/face.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="App" class="App">
+      <div class="fixed">
+        <section id="model">
+          <div id="webcam-wrapper">
+            <div class="loader"></div>
+            <canvas id="webcam-pose-canvas"></canvas>
+          </div>
+          <div id="graph-wrapper"></div>
+      </section>
+        <div id="graph-wrapper"></div>
+        <button id="startBt">Start</button>
+        <button id="stopBt">Stop</button>
+
+        <input id="inputMessage" type="text" value="" />
+        <button id="submitBt" type="button">Submit</button>
+      </div>
+      <div id="messages" class="messages"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
++ [*]frontcomputer yes[*]
+- <call>speechToText "Do you like to speak to bots?" bot 10</call>
+
++ [*] text [*]
+- <call>text "First Text" text2 2</call>
+
++ [*] text2 [*]
+- <call>text "Second Text" text3 2</call>
+
++ [*] text3 [*]
+-  if you want to see images? Say images
+
++ [*] image [*]
+- <call>image "AI is like a robot that help you to make things" https://qph.fs.quoracdn.net/main-qimg-10c21854b5b761f92ed2da1796ae06d9 mask 10</call> 
+
++ [*] video [*]
+- <call>video "There is a new video of AI you should see" https://www.youtube.com/watch?v=MPU2HistivI mask 10</call> 
+ 
++ [*] TMAudio [*]
+- <call>TMAudio "I will check if you were mask as is require" https://teachablemachine.withgoogle.com/models/WSP4ifnt/ mask 10</call> 
+
++ [*] TMImage [*]
+- <call>TMImage "I will check if you were mask as is require" https://teachablemachine.withgoogle.com/models/WSP4ifnt/ mask 10</call> 
+
++ [*] TMPose [*]
+- <call>TMPose "I will check if you have your hands on the face" https://teachablemachine.withgoogle.com/models/WSP4ifnt/ mask 10</call> 
+
++ mask0
+- Ohh you aren't wearing a mask. Do you think helps browser internet?
+
++ mask1
+- Good I see you are wearing a mask. Do you think helps browser internet?
+
++ *
+- Please I am waiting that you are speaking something

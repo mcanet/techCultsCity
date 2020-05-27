@@ -1,0 +1,30 @@
++ tmaudio
+- <call>tmaudio "AI is like a robot but they like if you applause his job" https://teachablemachine.withgoogle.com/models/WSP4ifnt/ applause 15</call> 
+
++ tmaudio yes
+- AI is happy that you recognise the job done
+
++ tmaudio no
+- AI is sad. 
+
++ tmimage
+- <call>tmimage "You should wear mask now. I will check" https://teachablemachine.withgoogle.com/models/6FUI2PwK7/ mask 15</call> 
+
++ mask yes
+- AI is happy that you wear mask 
+
++ mask no
+- AI is sad. Please wear a mask. 
+
++ [*]image[*]
+- <call>image "AI can produce hallucinations images like this" https://i.gifer.com/JnGX.gif tmaudio 10</call> 
+
++ [*]video[*]
+- <call>video "There is a new video of AI you should see" https://dl.dropboxusercontent.com/s/j2m6dt34t9f9joe/neuronal_landscapes_short_video_mono.mp4 mask 10</call> 
+
++ newrive
+- <call>newrive "AI can change life" brain3.rive applause 10</call> 
+
+
++ *
+- Please I am waiting that you are speaking something
